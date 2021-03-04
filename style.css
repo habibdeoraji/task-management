@@ -18,8 +18,9 @@ body {
 
 
 #left-section {
-    width: 270px;
-    /* box-sizing: border-box; */
+    width: 300px;
+    height: 100vh;
+    box-sizing: border-box;
     color: #3E5952;
     background-color: #F5F2E6;
     padding: 50px 0px 50px 50px;
@@ -159,7 +160,8 @@ body {
 /* Middle Section */
 
 #middle-section {
-    width: calc(75% - 270px);
+    width: calc(75% - 300px);
+    height: 100vh;
     box-sizing: border-box;
     background-color: #163631;
     color: #FFFFFF;
@@ -383,8 +385,10 @@ body {
 
 #right-section {
     width: 25%;
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #FFFCF8;
-    padding: 50px 50px;
+    padding: 30px 50px 30px 50px;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -420,7 +424,7 @@ body {
 #meeting-card-1 {
     width: calc(100% - 40px);
     padding: 18px 20px 15px 20px;
-    margin: 18px 0;
+    margin: 15px 0;
     border-radius: 10px;
     color: #72654D;
     background-color: #FFF1D6;
@@ -430,7 +434,7 @@ body {
 }
 
 #right-section h3 {
-    margin: 6px 0px 12px 0px;
+    margin: 6px 0px 16px 0px;
 }
 
 
@@ -474,7 +478,7 @@ body {
     width: calc(100% - 40px);
 
     padding: 18px 20px 15px 20px;
-    margin: 18px 0;
+    margin: 15px 0;
     border-radius: 10px;
     color: #495E6B;
     background-color: #D1E5FE;
@@ -487,7 +491,7 @@ body {
     width: calc(100% - 40px);
 
     padding: 18px 20px 15px 20px;
-    margin: 18px 0;
+    margin: 15px 0;
     border-radius: 10px;
     color: #6E4949;
     background-color: #FFD7D9;
@@ -497,7 +501,7 @@ body {
 #meeting-card-4 {
     width: calc(100% - 40px);
     padding: 18px 20px 15px 20px;
-    margin: 18px 0;
+    margin: 15px 0;
     border-radius: 10px;
     color: #608472;
     background-color: #D8FFE2;
